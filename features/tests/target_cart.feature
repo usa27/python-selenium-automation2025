@@ -5,7 +5,7 @@ Feature: Tests for cart
     Given Open Target main page
     When Search for dyson
     And Click on add to cart icon
+    And Store product name
     And Click Pick up button
-    And Close added to cart window
-    And Click on cart icon
-    Then Verify dyson is added to cart
+    And Open cart page
+    Then Verify product in cart is correct
