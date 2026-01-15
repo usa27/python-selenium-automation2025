@@ -9,7 +9,7 @@ Feature: Tests for search
   Scenario: User can click on cart icon
     Given Open Target main page
     When Click on cart icon
-    Then Empty cart message is shown
+    Then Your cart is empty message is shown
 
   Scenario Outline: User can search for different products on Target
     Given Open Target main page
